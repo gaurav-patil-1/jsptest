@@ -393,7 +393,7 @@
     window.CPRUMDataLayer = window.CPRUMDataLayer || [];
 
     function cpRumTag() {
-      CPRUMDataLayer.push(arguments);
+      window.CPRUMDataLayer.push(arguments);
     }
 
     cpRumTag('benchmarkLog', false);
